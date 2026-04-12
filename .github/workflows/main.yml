@@ -29,5 +29,5 @@ jobs:
     steps:
     - name: Simulando Deploy
       run: |
-        echo "Fazendo deploy da Calculadora da Monica..."
+        echo "Fazendo deploy da Calculadora..."
         echo "App instalado com sucesso!"
