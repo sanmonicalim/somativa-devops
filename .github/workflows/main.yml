@@ -30,7 +30,7 @@ jobs:
       uses: rjstone/discord-webhook-notify@v1
       with:
         severity: info
-        details: 'Sua pipeline passou com sucesso!'
+        details: 'Sua pipeline passou com sucesso!!'
         webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
 
     - name: Discord Notification Failure
