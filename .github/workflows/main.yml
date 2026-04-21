@@ -22,8 +22,8 @@ jobs:
 
     - name: Run Tests
       run: |
-        # Simulando, criando testes reais
-        echo "Executando testes unitários..."
+        pip install pytest
+        pytest test_app.py
 
     - name: Discord Notification Success
       if: success()
